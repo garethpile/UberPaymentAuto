@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-uberpaymentauto-dev-232343-authRole",
+      "UnauthRoleArn": "arn:aws:iam::287509267405:role/amplify-uberpaymentauto-dev-232343-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::287509267405:role/amplify-uberpaymentauto-dev-232343-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-uberpaymentauto-dev-232343-deployment",
+      "UnauthRoleName": "amplify-uberpaymentauto-dev-232343-unauthRole",
+      "StackName": "amplify-uberpaymentauto-dev-232343",
+      "StackId": "arn:aws:cloudformation:eu-west-1:287509267405:stack/amplify-uberpaymentauto-dev-232343/c0211db0-77af-11eb-85e8-02cce704e37f",
+      "AmplifyAppId": "d2h495hbg2a0c6"
+    },
+    "categories": {
+      "auth": {
+        "uberpaymentautoee571f40": {}
+      },
+      "hosting": {},
+      "function": {
+        "ingestUberPaymentFile": {
+          "deploymentBucketName": "amplify-uberpaymentauto-dev-232343-deployment",
+          "s3Key": "amplify-builds/ingestUberPaymentFile-555565674238484f4b57-build.zip"
+        }
+      }
+    }
+  }
+}
