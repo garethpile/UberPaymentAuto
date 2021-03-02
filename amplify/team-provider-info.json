@@ -19,7 +19,7 @@
       "function": {
         "ingestUberPaymentFile": {
           "deploymentBucketName": "amplify-uberpaymentauto-dev-232343-deployment",
-          "s3Key": "amplify-builds/ingestUberPaymentFile-555565674238484f4b57-build.zip"
+          "s3Key": "amplify-builds/ingestUberPaymentFile-4f584f67655a4735767a-build.zip"
         }
       }
     }
