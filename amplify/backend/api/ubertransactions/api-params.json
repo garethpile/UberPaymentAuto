@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/ubertransactions",
+            "lambdaFunction": "manageUberTransactions",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/ubertransactions"
+        }
+    ],
+    "resourceName": "ubertransactions",
+    "apiName": "ubertransactions",
+    "functionArns": [
+        {
+            "lambdaFunction": "manageUberTransactions"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-uberpaymentauto-dev-232343-authRole",
+        "unAuthRoleName": "amplify-uberpaymentauto-dev-232343-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "manageUberTransactions",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

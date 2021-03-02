@@ -21,7 +21,6 @@ type DriverTransactions @model @auth(rules: [{allow: public}]) @key(name: "byUbe
   description: String
   amount: Float
   reviewed: Int
-  uberdriverID: String
 }
 
 type UberTransactions @model @auth(rules: [{allow: public}]) @key(name: "byUberDriver", fields: ["uberdriverID"]) {
